@@ -1,0 +1,115 @@
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: block;
+    position: absolute;
+    width: 800px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+
+}
+.slider {
+    padding: 0 30px;
+}
+
+.slide {
+    display: inline-block;
+    position: relative;
+    height: 150px;
+}
+
+.text {
+    display: block;
+    font-size: 14px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    top: 55px;
+    left: 50px;
+    bottom: 50px;
+}
+
+.button {
+    display: block;
+    position: absolute;
+    background: url("../source/images/butt.png");
+    border-radius: 5%;
+    color: #ffffff;
+    width: 100px;
+    height: 20px;
+    padding-top: 10px;
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+    right: 90px;
+    top: 60px;
+}
+
+.slick-arrow {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: none;
+    color: transparent;
+    border: none;
+
+}
+.slick-prev,
+.slick-next {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #b4b6bc;
+    opacity: 0.8;
+
+}
+
+.slick-prev {
+    left: 30px;
+    z-index: 1;
+    border-radius: 0 10% 10% 0;
+}
+
+.slick-next {
+    right: 30px;
+    border-radius: 10% 0 0 10%;
+}
+
+.slick-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    text-align: center;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 3px;
+}
+
+.slick-dots li button {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 0;
+    color: transparent;
+    border: none;
+    transition: 0.4s;
+}
+
+.slick-dots li.slick-active button {
+    background: #5c9265;
+}
